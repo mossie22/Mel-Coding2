@@ -1,4 +1,4 @@
-package classwork;
+package notes;
 
 public class assignments {
     public static void main(String[] args){
