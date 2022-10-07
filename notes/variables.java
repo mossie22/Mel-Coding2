@@ -11,7 +11,7 @@ public class variables {
      *  boolean: true or false
      *  integer: whole number
      *  double: decimal number
-     * 
+     *  char: single character
      * 
      * reference/object
      */
