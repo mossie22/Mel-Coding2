@@ -1,4 +1,4 @@
-public class something {
+public class blockletter {
     public static void main(String[] args){
         World habitat = new World(300, 300);
 
