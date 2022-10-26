@@ -18,7 +18,18 @@ public class returnValues {
         area = bertle.getWidth() * bertle.getHeight();
         System.out.println("Bertle's area is: " + area);
 
-        
+        bertle.penUp();
+        bertle.moveTo(10,10);
+        bertle.penDown();
+        bertle.moveTo(290,10);
+        bertle.moveTo(290,290);
+        bertle.moveTo(10,290);
+        bertle.penUp();
+        bertle.moveTo(100,10);
+        bertle.penDown();
+        bertle.moveTo(200,10);
+        bertle.moveTo(200,250);
+        bertle.moveTo(100,250);
 
 
 
