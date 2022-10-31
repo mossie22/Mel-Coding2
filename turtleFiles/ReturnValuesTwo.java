@@ -15,5 +15,11 @@ public class ReturnValuesTwo {
 
         System.out.println(yertle.getDistance(bertleXPos,bertleYPos));
 
+        String lastName = "Vu";
+        String otherLastName = "Lopez";
+
+        int comparison = lastName.compareTo(otherLastName);
+        System.out.println(comparison);
+
     }
 }
