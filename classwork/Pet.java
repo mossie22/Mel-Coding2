@@ -8,6 +8,7 @@ public class Pet {
     private double weight;
     private String type;
     private String breed;
+    //instance bariable
 
     public Pet(String iN, int iA, double iW, String iT, String iB){
         name = iN;
@@ -16,7 +17,7 @@ public class Pet {
         type = iT;
         breed = iB;
 
-        
+        //cosnrucort
     }
     public Pet(){
         name = "Name";
@@ -24,6 +25,7 @@ public class Pet {
         weight = 0.0;
         type = "Animal";
         breed = "Breed";
+        //other costrunctor to overloab
     }
     public String getName(){
         return name;
@@ -40,4 +42,5 @@ public class Pet {
     public String getBreed(){
         return breed;
     }
+    //metho
 }
