@@ -30,17 +30,36 @@ public class Pet {
     public String getName(){
         return name;
     }
+    public void setName(String newName){
+        name = newName;
+    }
+
     public int getAge(){
         return age;
     }
+    public void setAge(int newAge){
+        age =newAge;
+    }
+
     public double getWeight(){
         return weight;
     }
+    public void setWeight(double newWeight){
+        weight = newWeight;
+    }
+
     public String getType(){
         return type;
     }
+    public void setType(String newType){
+        type = newType;
+    }
+
     public String getBreed(){
         return breed;
+    }
+    public void setBreed(String newBreed){
+        breed = newBreed;
     }
     //metho
 }
