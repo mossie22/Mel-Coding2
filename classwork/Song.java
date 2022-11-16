@@ -7,7 +7,7 @@ public class Song
     private String verse3;
     
 
-    public String printverse1(int pverse){
+    public String printverse(String pverse){
         System.out.println(pverse);
     }
 
@@ -24,7 +24,11 @@ public class Song
        // the verses of the song you chose
        // There should be at least 1 method called verse that takes arguments
 
-        Song Around = new Song("Around the world, around the world Around the world, around the world %n Around the world, around the world","d","d");
-        
-}
+        Song Around = new Song("Around the world, around the world", "Around the world, around the worldAround the world, around the world", "Around the world, around the worldAround the world, around the worldAround the world, around the world");
+        Around.printverse(Around.verse1);
+        Around.printverse(Around.verse2);
+        Around.printverse(Around.verse1);
+        Around.printverse(Around.verse3);
+
+  }
 }
