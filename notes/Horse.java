@@ -2,9 +2,9 @@ package notes;
 
 public class Horse {
     private String horseNoise;
-    private Color horseColor;
+    private String horseColor;
 
-    public Horse(String initHorseNoise, Color initHorseColor)
+    public Horse(String initHorseNoise, String initHorseColor)
     {
         horseNoise = initHorseNoise;
         horseColor = initHorseColor;
