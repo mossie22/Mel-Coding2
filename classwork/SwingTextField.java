@@ -16,7 +16,7 @@ public class SwingTextField {
     JTextField  testField = new JTextField(15);
 
     // place and size for components
-    inputLabel.setBounds(200,50,300,50);
+    inputLabel.setBounds(100,50,500,50);
     inputLabel.setFont(new Font("Arial", Font.PLAIN, 19)); //edit this
     inputLabel.setForeground(Color.RED); //edit this 
     inputLabel.setText("type the name of someone you hate"); //edit this
@@ -25,7 +25,7 @@ public class SwingTextField {
 
     submitButton.setBounds(100, 150, 150, 50);
 
-    outputLabel.setBounds(100,200,300,50);
+    outputLabel.setBounds(100,200,500,50);
     outputLabel.setFont(new Font("Arial", Font.PLAIN, 19)); //edit this
     outputLabel.setForeground(Color.BLUE); //edit this
     
