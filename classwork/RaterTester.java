@@ -26,7 +26,10 @@ public class RaterTester
         System.out.println("\nCurrent Rating: " + jrs.getRating());
         System.out.println(jrs);
         
-        Rater bobs = new Rater("Bob's Motor Oil Resturant", 2);
+        Rater bobs = new Rater("Bob's Motor Oil Resturant", 2.0);
+        bobs.updateReview();
+        System.out.println(bobs);
+        bobs.setRating(4.0);
         bobs.updateReview();
         System.out.println(bobs);
     }
