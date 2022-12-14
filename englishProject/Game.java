@@ -9,7 +9,7 @@ public class Game {
         System.out.println("Mel's Project for Jamaica Kincaid's Girl");
         System.out.println("Start by choosing your birth sex. Enter either M or F.");
         String name = scan.nextLine(); // read user's String input
-        System.out.println("You don't get to choose actually, that'd be too easy.");
+        System.out.println("You don't get to choose. That'd be too easy.");
         System.out.println("Time to do some chores.");
         System.out.println("Wash the white clothes on Monday and put them on the stone heap; wash the color clothes on Tuesday and put them on the clothesline to dry");
         System.out.println("Type 0 if you follow the directions exactly. Type 1 if you make a small mistake.");
